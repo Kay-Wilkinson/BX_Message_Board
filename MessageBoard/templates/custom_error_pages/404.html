@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+{% block content %}
+	<div class="content-section">
+		<h1>Oops. Page Not Found (404)</h1>
+		<p>That page does not currently exist.</p>
+		<p>If you would like it to, feel free to update the code base</p>
+		<img src="{{ url_for('static', filename='img/error_404.png') }}" alt="There was meant to be a witty meme here" style="width:500px;height:460px">
+	</div>
+{% endblock content%}

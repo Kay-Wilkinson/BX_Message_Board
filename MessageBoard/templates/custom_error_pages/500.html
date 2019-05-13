@@ -1,0 +1,8 @@
+{% extends "layout.html" %}
+{% block content %}
+	<div class="content-section">
+		<h1>General Server Error (500)</h1>
+		<p>Everybody panic.</p>
+		<img src="{{ url_for('static', filename='img/error_500.png') }}" alt="There was meant to be a witty meme here" style="width:500px;height:500px">
+	</div>
+{% endblock content%}

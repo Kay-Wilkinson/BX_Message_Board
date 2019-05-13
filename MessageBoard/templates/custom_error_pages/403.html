@@ -1,0 +1,8 @@
+{% extends "layout.html" %}
+{% block content %}
+	<div class="content-section">
+		<h1>Forbidden (403)</h1>
+		<p>Sorry, you don't have permission to do this</p>
+		<img src="{{ url_for('static', filename='img/error_403.png') }}" alt="There was meant to be a witty meme here" style="width:490px;height:500px">
+	</div>
+{% endblock content%}
