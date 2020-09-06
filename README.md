@@ -14,7 +14,7 @@ virtualenv
 
 ### Installing
 
-Open a new virtualenv and install the requirements.txt file into the new developement environment. 
+Open a new virtualenv and install the requirements.txt file into the new development environment. 
 Open your browser and go to localhost to view the project.
 Click 'Register' to begin.
 
